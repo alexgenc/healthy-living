@@ -9,7 +9,7 @@ from forms import RegistrationForm, LoginForm, CommentForm, UserEditForm, Change
 import pdb
 from werkzeug.exceptions import Unauthorized, NotFound
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 # Get DB_URI from environ variable (useful for production/testing) or,
 # if not set there, use development local db.
