@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Meal Search{% endblock %}
+
+{% block content %}
+
+<div class="meal-search-container">
+  <h1 class="mb-4">Meal Search</h1>
+  <p>Search for a meal or get a random meal if you're feeling lucky!</p>
+  <p id="meal-search-error"><strong>Please enter a search term.</strong></p>
+  <div class="flex">
+    <form class="flex" id="submit">
+      <input type="text" id="search" placeholder="Search for meals or keywords"/>
+      <button class="search-btn" type="submit">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+    <button class="random-btn" id="random">
+      <i class="fas fa-random"></i>
+    </button>
+  </div>
+
+  <div id="result-heading"></div>
+  <div id="meals" class="meals"></div>
+  <div id="single-meal"></div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+  <script src="/static/meal_search.js"></script>
+{% endblock %}
+ 

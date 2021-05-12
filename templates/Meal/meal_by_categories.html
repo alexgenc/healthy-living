@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}{{meal_category.name}}{% endblock %}
+
+{% block content %}
+
+<h1 class="h1 mt-3 mb-3" id={{meal_category.name}} data-id="{{meal_category.id}}">Meal Recipes For: {{meal_category.name}} 
+</h1>
+
+  <p>
+    <strong class="text-danger">
+        Please Note: You need to be signed in to view meal recipes.
+    </strong>
+  </p>
+
+
+<div class="container">
+  <div id="meal-container" class="row d-flex justify-content-center">
+
+  </div>
+</div>
+  
+{% endblock %}
+
+<img src="" alt="">
+ 
+{% block js %}
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/static/meals.js"></script>
+{% endblock %}
+
+
+
+  
