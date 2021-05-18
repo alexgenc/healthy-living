@@ -63,7 +63,7 @@ All passwords are salted and encrypted using BCrypt, using the wrapper flask-bcr
 **News API:** https://developer.nytimes.com/  
 
 ## Database Schema Design
-[![Database-Schema-Design.jpg](https://i.postimg.cc/VvmntCtK/Database-Schema-Design.jpg)](https://postimg.cc/r0ZDXzQ4)
+![Database-Schema-Design.jpg](https://i.postimg.cc/VvmntCtK/Database-Schema-Design.jpg)
 
 **Meal information is directly fetched from the API and therefore, not stored in the database.**
 
