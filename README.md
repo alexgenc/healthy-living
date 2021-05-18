@@ -1,5 +1,9 @@
 # HEALTHY LIVING - CAPSTONE PROJECT 1 - ALEX GENC
 
+![homepage.jpg](https://i.postimg.cc/nLnG0YJb/Healthy-Living.jpg)
+
+Live Demo: https://alexgenc-healthyliving.herokuapp.com/
+
 ## ABOUT THE PROJECT
 The intention of this project is to create a full-stack web application using all the technologies learned up to this point (~40%) in Springboard's Software Engineering Career Track course.
 
