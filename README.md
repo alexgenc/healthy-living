@@ -60,7 +60,7 @@ All passwords are salted and encrypted using BCrypt, using the wrapper flask-bcr
 ## API
 **Exercises API:** https://wger.de/en/software/api  
 **Meals API:** https://www.themealdb.com/api.php  
-**News API:** https://developer.nytimes.com/  
+**News API:** https://open-platform.theguardian.com/ 
 
 ## Database Schema Design
 ![Database-Schema-Design.jpg](https://i.postimg.cc/VvmntCtK/Database-Schema-Design.jpg)
